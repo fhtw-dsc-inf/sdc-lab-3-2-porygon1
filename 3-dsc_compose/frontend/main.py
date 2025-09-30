@@ -18,7 +18,7 @@ STYLES = {
     "udnie": "udnie",
 }
 
-env_backend_url = os.environ['APP_BACKEND_URL']
+env_backend_url = os.environ.get('APP_BACKEND_URL','http://backend/')
 
 st.title("Style transfer web app")
 
